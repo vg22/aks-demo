@@ -5,7 +5,7 @@
 $randomInt = Get-Random -Maximum 9999
 $subscriptionId = (get-azcontext).Subscription.Id
 $resourceGroupName = "Demo-Terraform-Core-Backend-RG"
-$storageName = "tfgithubbackendsa$randomInt"
+$storageName = "tfcorebackendsa6873$randomInt"
 $kvName = "tf-core-backend-kv$randomInt"
 $appName="tf-core-github-SPN$randomInt"
 $region = "uksouth"

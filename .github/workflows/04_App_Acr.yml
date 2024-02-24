@@ -25,8 +25,8 @@ jobs:
           tf_vars_file: config-dev.tfvars
           tf_key: app-acr-dev
           enable_TFSEC: true
-          az_resource_group: Terraform-GitHub-Backend
-          az_storage_acc: tfgithubbackendsa
+          az_resource_group: Demo-Terraform-Core-Backend-RG
+          az_storage_acc: tfcorebackendsa6873
           az_container_name: gh-terraform-deployments
           arm_client_id: ${{ secrets.ARM_CLIENT_ID }}
           arm_client_secret: ${{ secrets.ARM_CLIENT_SECRET }}
@@ -47,8 +47,8 @@ jobs:
           plan_mode: deploy
           tf_version: latest
           tf_key: app-acr-dev
-          az_resource_group: Terraform-GitHub-Backend
-          az_storage_acc: tfgithubbackendsa
+          az_resource_group: Demo-Terraform-Core-Backend-RG
+          az_storage_acc: tfcorebackendsa6873
           az_container_name: gh-terraform-deployments
           arm_client_id: ${{ secrets.ARM_CLIENT_ID }}
           arm_client_secret: ${{ secrets.ARM_CLIENT_SECRET }}
@@ -74,8 +74,8 @@ jobs:
 #          tf_vars_file: config-dev.tfvars
 #          tf_key: app-acr-dev
 #          enable_TFSEC: false
-#          az_resource_group: Terraform-GitHub-Backend
-#          az_storage_acc: tfgithubbackendsa
+#          az_resource_group: Demo-Terraform-Core-Backend-RG
+#          az_storage_acc: tfcorebackendsa6873
 #          az_container_name: gh-terraform-deployments
 #          arm_client_id: ${{ secrets.ARM_CLIENT_ID }}
 #          arm_client_secret: ${{ secrets.ARM_CLIENT_SECRET }}
@@ -96,8 +96,8 @@ jobs:
 #          plan_mode: destroy
 #          tf_version: latest
 #          tf_key: app-acr-dev
-#          az_resource_group: Terraform-GitHub-Backend
-#          az_storage_acc: tfgithubbackendsa
+#          az_resource_group: Demo-Terraform-Core-Backend-RG
+#          az_storage_acc: tfcorebackendsa6873
 #          az_container_name: gh-terraform-deployments
 #          arm_client_id: ${{ secrets.ARM_CLIENT_ID }}
 #          arm_client_secret: ${{ secrets.ARM_CLIENT_SECRET }}
